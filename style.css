@@ -1,0 +1,107 @@
+.main{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 10% auto;
+    display: flex;
+}
+/* .triangle{
+    margin-left: 7%;
+    position: absolute;
+    height: 90px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: black;
+    z-index: 100;
+    opacity: 0;
+} */
+/* .shape{
+    transform: rotateX(70deg);
+    margin-top: 2.5%;
+    margin-left: 5.25%;
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: black;
+    z-index: 100;
+    opacity: 0;
+} */
+.main:hover{
+    /* .triangle{
+        opacity: 1;
+    }
+    .shape{
+        opacity: 1;
+    } */
+    .mouth{
+        transform: scale(2);
+    }
+    .left, .right{
+        transform: scale(1.3);
+    }
+}
+.ear{
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    height: 100px;
+    width: 400px;
+}
+.ear-1,.ear-2{
+    height: 95px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: pink;
+    border-radius: 50% 50% 0 0;
+}
+.body{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: auto;
+    justify-content: center;
+    z-index: 1;
+}
+
+.eyes{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 90px;
+
+}
+.left, .right{
+    height: 65px;
+    width: 65px;
+    background-color: white;
+    border-radius: 50%;
+}
+.circle
+{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: black;
+    margin:35% auto;
+}
+.mouth{
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50px;
+    position: relative;
+    margin: 15% auto;
+    display: flex;
+    border: 2px solid  black;
+}
+.c-2{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: black;
+    margin: auto;
+}
